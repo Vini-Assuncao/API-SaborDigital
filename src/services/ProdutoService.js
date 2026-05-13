@@ -124,7 +124,7 @@ class ProdutoService {
         if (!id || isNaN(preco) || preco <= 0) {
             throw {
                 status: 400,
-                mensagem: "Preço deve ser um número positivo"
+                mensagem: "ID inválido"
             }
         }
 
