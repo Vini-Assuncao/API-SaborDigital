@@ -15,7 +15,7 @@ router.get('/', (req, res) => {
     });
 });
 
-// Registrar domínios de rotas
+// Registrar domínios de rota
 router.use('/produtos', produtoRoutes);
 router.use('/cardapios', cardapioRoutes);
 router.use('/pedidos', pedidoRoutes);
