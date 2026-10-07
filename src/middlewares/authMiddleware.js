@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 
-const JWT_SECRET = process.env.JWT_SECRET || 'chave_super_secreta_sabor_digital_123';
+const JWT_SECRET = process.env.JWT_SECRET;
 
 const verificarToken = (req, res, next) => {
     // Busca o header de autorização (ex: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...")
